@@ -1,0 +1,219 @@
+{
+  "audited":[
+    {
+      "Coordinates":"pkg:golang/github.com/golang-jwt/jwt@v1.0.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/golang-jwt/jwt@v1.0.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/google/go-cmp@v0.5.8",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/google/go-cmp@v0.5.8?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/google/uuid@v1.3.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/google/uuid@v1.3.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/gookit/color@v1.5.2",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/gookit/color@v1.5.2?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/lib/pq@v1.10.7",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/lib/pq@v1.10.7?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/mozilla/tls-observatory@v0.0.0-20210609171429-7bc42856d2e5",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/mozilla/tls-observatory@v0.0.0-20210609171429-7bc42856d2e5?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/nbutton23/zxcvbn-go@v0.0.0-20210217022336-fa2cb2858354",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/nbutton23/zxcvbn-go@v0.0.0-20210217022336-fa2cb2858354?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/onsi/ginkgo/v2@v2.3.1",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/onsi/ginkgo/v2@v2.3.1?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/onsi/gomega@v1.22.1",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/onsi/gomega@v1.22.1?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/securego/gosec/v2@v2.14.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/securego/gosec/v2@v2.14.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/yuin/goldmark@v1.4.13",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/yuin/goldmark@v1.4.13?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/crypto@v0.0.0-20221012134737-56aed061732a",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/crypto@v0.0.0-20221012134737-56aed061732a?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/mod@v0.7.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/mod@v0.7.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/net@v0.3.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/net@v0.3.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+        {
+          "ID":"CVE-2022-41717",
+          "Title":"[CVE-2022-41717] CWE-770: Allocation of Resources Without Limits or Throttling",
+          "Description":"An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.",
+          "CvssScore":"5.3",
+          "CvssVector":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+          "Cve":"CVE-2022-41717",
+          "Reference":"https://ossindex.sonatype.org/vulnerability/CVE-2022-41717?component-type=golang\u0026component-name=golang.org%2Fx%2Fnet\u0026utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+          "Excluded":false
+        }
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/sync@v0.1.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/sync@v0.1.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/sys@v0.3.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/sys@v0.3.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/text@v0.3.8",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/text@v0.3.8?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/golang.org/x/tools@v0.4.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/tools@v0.4.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/go-yaml/yaml@v2.4.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/go-yaml/yaml@v2.4.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    },
+    {
+      "Coordinates":"pkg:golang/github.com/go-yaml/yaml@v3.0.1",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/go-yaml/yaml@v3.0.1?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+
+      ],
+      "InvalidSemVer":false
+    }
+  ],
+  "excluded":null,
+  "exclusions":[
+
+  ],
+  "invalid":[
+
+  ],
+  "num_audited":22,
+  "num_exclusions":0,
+  "num_vulnerable":1,
+  "version":"1.0.42",
+  "vulnerable":[
+    {
+      "Coordinates":"pkg:golang/golang.org/x/net@v0.3.0",
+      "Reference":"https://ossindex.sonatype.org/component/pkg:golang/golang.org/x/net@v0.3.0?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+      "Vulnerabilities":[
+        {
+          "ID":"CVE-2022-41717",
+          "Title":"[CVE-2022-41717] CWE-770: Allocation of Resources Without Limits or Throttling",
+          "Description":"An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.",
+          "CvssScore":"5.3",
+          "CvssVector":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+          "Cve":"CVE-2022-41717",
+          "Reference":"https://ossindex.sonatype.org/vulnerability/CVE-2022-41717?component-type=golang\u0026component-name=golang.org%2Fx%2Fnet\u0026utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.42",
+          "Excluded":false
+        }
+      ],
+      "InvalidSemVer":false
+    }
+  ]
+}

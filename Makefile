@@ -1,17 +1,20 @@
 SHELL = /bin/bash
+docker_run_goci = docker run --rm --platform linux/amd64 --name goci gocitools:latest
 
 build:
 	docker build --platform linux/amd64 --tag gocitools:latest --file alpine.Dockerfile .
 
 lint:
-	docker run --platform linux/amd64 --name goci -it gocitools:latest golangci-lint
+	$(docker_run_goci) golangci-lint
 
 sec:
-	docker run --platform linux/amd64 --name goci -it gocitools:latest gosec
+	$(docker_run_goci) gosec
 
 nancy:
-	docker run --platform linux/amd64 --name goci -it gocitools:latest nancy
+	$(docker_run_goci) nancy
 
-clean:
-	docker stop goci
-	docker rm goci
+analyze_gosec:
+	$(docker_run_goci) analyze_nancy
+
+analyze_nancy:
+	$(docker_run_goci) analyze_nancy

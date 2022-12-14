@@ -1,0 +1,44 @@
+{
+	"Golang errors": {},
+	"Issues": [
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "22",
+				"url": "https://cwe.mitre.org/data/definitions/22.html"
+			},
+			"rule_id": "G304",
+			"details": "Potential file inclusion via variable",
+			"file": "/Users/mcouillard/Code/hortau/gocitools/cmd/gosec/main.go",
+			"code": "16: \n17: \tjsonFile, err := os.Open(file)\n18: \tif err != nil {\n",
+			"line": "17",
+			"column": "19",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"*os.File\"",
+			"file": "/Users/mcouillard/Code/hortau/gocitools/cmd/gosec/main.go",
+			"code": "20: \t}\n21: \tdefer jsonFile.Close()\n22: \n",
+			"line": "21",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		}
+	],
+	"Stats": {
+		"files": 1,
+		"lines": 56,
+		"nosec": 0,
+		"found": 2
+	},
+	"GosecVersion": "dev"
+}

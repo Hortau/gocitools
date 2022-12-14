@@ -12,4 +12,10 @@ RUN wget -q -O - https://raw.githubusercontent.com/golangci/golangci-lint/master
 RUN wget -q -O - https://raw.githubusercontent.com/securego/gosec/master/install.sh | sh -s $gosec_version
 RUN wget -q -c https://github.com/sonatype-nexus-community/nancy/releases/download/$nancy_version/nancy-$nancy_version-linux-amd64.tar.gz -O - | tar -xz -C /usr/bin/
 
-CMD ["golangci-lint", "gosec", "nancy"]
+WORKDIR /build
+COPY /cmd .
+RUN cd analyze_gosec && go build -ldflags "-s -w" -o /usr/bin/analyze_gosec main.go
+RUN cd analyze_nancy && go build -ldflags "-s -w" -o /usr/bin/analyze_nancy main.go
+RUN rm -rf /build
+
+CMD ["golangci-lint", "gosec", "nancy", "analyze_gosec", "analyze_nancy"]
