@@ -7,17 +7,7 @@ You can run test and scan for vulnerability.
 - analyze_gosec script to use in CI
 - analyze_nancy script to use in CI
 
-## Build the container image
-    make build
+## How to test with Docker Desktop
+Use the commands in the Makefile
 
-## Run golangci-lint
-    make lint
-
-## Run analyze gosec script
-    make analyze_gosec
-
-## Run analyze nancy script
-    make analyze_nancy
-
-## Remove the container image
-    make clean
+`make build, make lint, make sec, make nancy`
