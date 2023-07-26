@@ -14,7 +14,7 @@ nancy:
 	$(docker_run_goci) nancy
 
 analyze_gosec:
-	$(docker_run_goci) analyze_nancy
+	$(docker_run_goci) analyze_gosec
 
 analyze_nancy:
 	$(docker_run_goci) analyze_nancy

@@ -1,7 +1,7 @@
-FROM golang:1.19-alpine
+FROM golang:1.20-alpine
 
-ARG lint_version=v1.50.1
-ARG gosec_version=v2.14.0
+ARG lint_version=v1.53.3
+ARG gosec_version=v2.16.0
 ARG nancy_version=v1.0.42
 
 ENV GOROOT /usr/local/go
